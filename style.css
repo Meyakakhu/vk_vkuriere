@@ -136,3 +136,76 @@ margin-bottom: 30px;
     background: #dadada;
     height: 1px;
 }
+
+*{
+padding: 0;
+margin: 0;
+font-family: 'Consolas';
+}
+body{
+background: #151515;
+}
+
+.player-level{
+margin-left: 13%;
+display: flex;
+color: #fff;
+}
+.cur_level{
+position:relative;
+left: 10px;
+width: 15px;
+height: 15px;
+text-align: center;
+padding: 5px;
+border-radius: 100%;
+background: #0c0c0c;
+font-size: 10px;
+z-index: 1;
+}
+
+.next_level{
+position:relative;
+left: -10px;
+font-size: 10px;
+width: 15px;
+height: 15px;
+text-align: center;
+padding: 5px;
+border-radius: 100%;
+background: #0c0c0c;
+z-index: 1;
+}
+
+.progress_bar_level{
+width: 80%;
+background: #0c0c0c;
+height: 10px;
+position: relative;
+top: 7px;
+z-index: 0;
+}
+
+.level{
+position: relative;
+top: 2px;
+}
+.level_percentage{
+margin-top: 10px;
+color: #fff; 
+font-size: 12px;
+text-align: center;
+}
+.active-color{
+width: 45%;
+background: #23f342;
+height: 100%;
+}
+.content{
+padding: 5%;
+}
+
+.achive_pan{
+color: #fff;
+}
+
