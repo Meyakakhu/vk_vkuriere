@@ -137,15 +137,6 @@ margin-bottom: 30px;
     height: 1px;
 }
 
-*{
-padding: 0;
-margin: 0;
-font-family: 'Consolas';
-}
-body{
-background: #151515;
-}
-
 .player-level{
 margin-left: 13%;
 display: flex;
